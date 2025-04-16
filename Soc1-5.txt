@@ -1,0 +1,127 @@
+Iteration 4:
+84261[us]: PBL, End
+95707[us]: SBL1, Start
+743241[us]: SBL1, End
+866353[us]: ifsl entry
+875030[us]: init parti_end
+883013[us]: cpul psci start
+883662[us]: cpul psci start done
+883857[us]: cpu2 psci start
+884535[us]: cpu2 psci start done
+884574[us]: cpu3 psci start
+884303[us]: cpu3 psci _start done
+885201[us]: cpu4 psci _start
+887537[us]: cpu4_ psci_start_done
+887684[us]: cpu5 psci start
+887874[us]: cpu5 psci _start done
+888598[us]: cpu6 psci start done
+888371[us]: cpu7 psci start
+889073[us]: cpu7 psci start done
+889242[us]: ifsl exit
+925784[us]: bmetrics service: START
+926675[us]: devc-quipv3: START
+929611[us]: devc-quipv3: READY
+967097[us]: qcgpio: START
+967439[us]: gcore: START
+974586[us]: qcgpio: READY
+976991[us]: smmu service: START
+980627[us]: gcore: READY
+980447[us]: /dev/qcore: INTERMEDIATE
+997200[us]: smmu service: READY
+1014091[us]: watchdog: START
+1014275[us]: watchdog: READY
+1023028[us]: gcd server: START
+1023145[us]: syscache _service: START
+1024282[us]: syscache gervice: READY
+1026168[us]: memorydump: START
+1044563[us]: i2c service: START
+1046867[us]: i2c gervice: READY
+1046050[us]: DRIVER I2C Ready:/dev/i2c2: INTERMEDIATE
+1046660[us]: DRIVER I2C Ready:/dev/i2cl: INTERMEDIATE
+1046600[us]: spi service: START
+1047297[us]: DRIVER I2C Ready:/dev/i2c4: INTERMEDIATE
+1047609[us]: DRIVER I2C Ready:/dev/i2c3: INTERMEDIATE
+1047061[us]: /dev/i2c service: INTERMEDIATE
+1047861[us]: memorydump: READY
+1047849[us]: spi service: READY
+1048118[us]: /dev/mdump: INTERMEDIATE
+1049490[us]: /dev/spil ready: INTERMEDIATE
+1049591[us]: /dev/spi9 ready: INTERMEDIATE
+1050227[us]: /dev/spi service: INTERMEDIATE
+1051305[us]: qcd test: START
+1051320[us]: pil_service: START
+1053405[us]: QCD_ SERVER HWMgr_ExtHWOpen (0) start:
+1053855[us]: QCD_SERVER HWMgr_ExtHWOpen (2) start:
+1054309[us]: QCD_SERVER HWMgr ExtHWOpen(3) start:
+1054088[us]: pil service: READY
+1060805[us]: QCD_SERVER HWMgr_ExtHWOpen (0) ready:
+1061120[us]: QCD_SERVER HWMgr ExtHwOpen (3) ready:
+1068631[us]: /dev/nsp_drv: INTERMEDIATE
+1068216[us]: devb-ufs-qualcomm: START
+1148582[us]: devb-ufs-qualcomm: READY
+1192573[us]: startup.sh: START
+1206850[us]: fastrpc: LAUNCH
+1207421[us]: diag_service: LAUNCH
+1212659[us]: fastrpc: START
+1215163[us]: fastrpc: READY
+1225574[us]: diag service: START
+1225743[us]: launch iopkt: LAUNCH
+1225449[us]: io-pkt-v6-hc: LAUNCH
+1228280[us]: diag_service: READY
+1228022[us]: /dev/diag_service: INTERMEDIATE
+1240675[us]: openwfd server: LAUNCH
+1242158[us]: kgsl: LAUNCH
+1244060[us]: screen: LAUNCH
+1254128[us]: cdsp service: START
+1258079[us]: cdsp service: READY
+1259053[us]: /dev/cdsp service: INTERMEDIATE
+1264775[us]: kgsl: START
+1277630[us]: QCD SERVER HMgr ExtHWOpen (2) ready: INTERMEDIATE
+1278947[us]: qcd server: READY
+1294801[us]: openwfd server main(): INTERMEDIATE
+1295012[us]: openwfd slog2 register -- Start: INTERMEDIATE
+1295384[us]: openwfd slog2 register - Done: INTERMEDIATE
+1296208[us]: openwfd DALSYSInit -- Start: INTERMEDIATE
+1297436[us]: openwfd DALSYSInit -- Done: INTERMEDIATE
+1297034[us]: openwfd SMMU open -- Start: INTERMEDIATE
+1299188[us]: openwfd SMMU open -- Done: INTERMEDIATE
+1323736[us]: EMAC PROBE START in Entry: INTERMEDIATE
+1324154[us]: EMACO DRIVER Attach Start: INTERMEDIATE
+1351343[us]: openwfd server ready(): INTERMEDIATE
+1528440[us]: kgsl: READY
+1534367[us]: qcd test: READY
+1536247[us]: EMACO DRIVER Attach Ready: INTERMEDIATE
+1536413[us]: netconfig:if_ up-emacO: START
+1540215[us]: netconfig:if_up-emacO: READY
+1573417[us]: QCD TEST APP first frame input 3: INTERMEDIATE
+1573451[us]: QCD TEST APP first frame input 2: INTERMEDIATE
+1574541[us]: QCD_ TEST _APP first frame input 0: INTERMEDIATE
+1574673[us]: QCD TEST APP first frame input 1: INTERMEDIATE
+1702561[us]: EMACO Link UP: INTERMEDIATE
+1772903[us]: EMAC PROBE START in Entry: INTERMEDIATE
+1773161[us]: EMAC1 DRIVER Attach Start: INTERMEDIATE
+1948156[us]: /dev/plinfo : INTERMEDIATE
+1949987[us]: EMAC1 DRIVER Attach Ready: INTERMEDIATE
+1950491[us]: EMAC1 Link UP: INTERMEDIATE
+1950877[us]: netconfig:if_up-emacl: START
+1955122[us]: netconfig:if_up-emacl: READY
+1960694[us]: /dev/plinfo : INTERMEDIATE
+2568113[us]: sa9000 init: LAUNCH
+2586158[us]: qseecom_service: LAUNCH
+2614116[us]: qseecom daemon: LAUNCH
+2624766[us]: smcinvoke service: LAUNCH
+2650660[us]: videoCore: LAUNCH
+2664000[us]: videoCore: START
+2668575[us]: ssr service: LAUNCH
+22669395[us]: eva server: LAUNCH
+2684165[us]: ssr service: START
+2687162[us]: ssr service: READY
+3857301[us]: rsm: LAUNCH
+3859511[us]: qaic sa8540: LAUNCH
+3862353[us]: pcie sm: LAUNCH
+3875231[us]: adc service: LAUNCH
+3875639[us]: Bring up AQC interface on SOCl only: INTERMEDIATE
+5616670[us]: io-usb-otg: LAUNCH
+5744027[us]: devb nvme: LAUNCH
+5870404[us]: fwverinfo_ service: LAUNCH
+6770392[us]: sa9000 init: READY
